@@ -17,11 +17,11 @@ public class ImperioGalacticoShop {
 		
 		
 		//Se crean los propulsores.
-		Propulsor propulsorNuevo1 = (Propulsor)fabricaPropulsor.getComponente("intercontinental");
+		Propulsor propulsorNuevo1 = (Propulsor)fabricaPropulsor.getComponente("intergalactico");
 		propulsorNuevo1.crearPropulsor();
 		
 		//Se crea la cabina.
-		Cabina cabinaNueva1 = (Cabina)fabricaCabina.getComponente("piloto");
+		Cabina cabinaNueva1 = (Cabina)fabricaCabina.getComponente("tripulacion");
 		cabinaNueva1.crearCabina();
 
 		//Se crea el blindaje.
@@ -29,7 +29,7 @@ public class ImperioGalacticoShop {
 		blindajeNuevo1.crearBlindaje();
 		
 		//Se crea el blindaje.
-		Arma armaNueva1 = (Arma)fabricaArma.getComponente("plasma");
+		Arma armaNueva1 = (Arma)fabricaArma.getComponente("laser simple");
 		armaNueva1.crearArma();
 		
 		//Se crea el auto nuevo con esas partes.
