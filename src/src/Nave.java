@@ -27,7 +27,7 @@ public class Nave {
 		cabina.getTipo() + ": " + cabina.getDescripcion() +"\n" +
 		blindaje.getTipo() + ": " + blindaje.getDescripcion() +"\n" +
 		arma.getTipo() + ": " + arma.getDescripcion() +  "\n" +
-		"Costo de la nave: " + getCosto() + "\n" +
+		"Costo de la nave: " +"$"+ getCosto() + "\n" +
 		estadisticas()); 
 	}
 

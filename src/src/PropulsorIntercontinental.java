@@ -17,7 +17,7 @@ public class PropulsorIntercontinental implements Propulsor {
 	@Override
 	public int costo() {
 		// TODO Auto-generated method stub
-		return 2000;
+		return 1000;
 	}
 
 	@Override

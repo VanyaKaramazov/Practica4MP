@@ -31,7 +31,7 @@ public class ArmaMisilesPlasma implements Arma {
 	@Override
 	public int getAtaque() {
 		// TODO Auto-generated method stub
-		return 500;
+		return 700;
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class ArmaLaserSimple implements Arma {
 
 	@Override
 	public int costo() {
-		return 100;
+		return 400;
 	}
 
 	
